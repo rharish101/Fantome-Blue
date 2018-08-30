@@ -9,19 +9,19 @@ The icons theme used is Arc-X-D, with Paper as a fallback.
 Metacity theme is Arc-Dark.
 
 ## Thunar
-![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/thunar.png)
+![thunar](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/thunar.png)
 
 ## Xfce Settings
-![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/xfce-settings.png)
+![xfce-settings](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/xfce-settings.png)
 
 ## Theme Chooser
-![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/theme-chooser.png)
+![theme-chooser](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/theme-chooser.png)
 
 ## Pavucontrol
-![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/pavucontrol.png)
+![pavucontrol](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/pavucontrol.png)
 
 ## Whisker Menu
-![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/whisker-menu.png)
+![whisker-menu](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/whisker-menu.png)
 
 ## Installation
 Simply just clone this repository to your ~/.themes folder.
