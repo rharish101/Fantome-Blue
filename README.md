@@ -1,48 +1,35 @@
 ## Introduction
-Just a messy edit of Arc GTK theme, designed as a companion for my Xfwm, Openbox, and Fluxbox theme collections. 
-So, You can't find Gnome Shell, Metacity, Emerald, Cinnamon, etc here. 
-Contains a dark variant called Fantome and a light variant called Lumiere.
-The GTK3 part mostly default, the gtk.css is too hard for me to be understood. 
+Just a messy edit of Fantome, by [addy-dclxvi](https://github.com/addy-dclxvi), which is a messy edit of the Arc GTK theme.
+I liked the simplicity of Fantome, but I wanted the colorscheme of Arc-Dark.
+Therefore, I created this variant.
 
 ## Preview
-I use Openbox for the light colour preview, and Fluxbox for my the dark colour preview. 
-The icons theme used is Arc, but I delete some components. Then set Papirus as a fallback instaed of Moka. 
-I also edit the folder icons using GIMP to make it match with my colour scheme.
-GTK CSD is removed using gtk-nocsd. 
-And the album in the playlist is **Six Degrees of Inner Turbulence** by Dream Theater. I recommend You to listen to it.
+I use Compiz as my window manager.
+The icons theme used is Arc-X-D, with Paper as a fallback.
+Metacity theme is Arc-Dark.
 
-## Thunar Lumiere
-![alt text](https://raw.githubusercontent.com/addy-dclxvi/gtk-theme-collections/master/thunar-light.jpg) <br />
+## Thunar
+![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/thunar.png)
 
-## Audacious Lumiere
-![alt text](https://raw.githubusercontent.com/addy-dclxvi/gtk-theme-collections/master/audacious-light.jpg) <br />
+## Xfce Settings
+![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/xfce-settings.png)
 
-## Evince Lumiere
-![alt text](https://raw.githubusercontent.com/addy-dclxvi/gtk-theme-collections/master/evince-light.jpg) <br />
+## Pavucontrol
+![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/pavucontrol.png)
 
-## GIMP Lumiere
-![alt text](https://raw.githubusercontent.com/addy-dclxvi/gtk-theme-collections/master/gimp-light.jpg) <br />
-
-## Thunar & Geany Fantome
-![alt text](https://raw.githubusercontent.com/addy-dclxvi/gtk-theme-collections/master/geany-dark.jpg) <br />
-
-## Audacious Fantome
-![alt text](https://raw.githubusercontent.com/addy-dclxvi/gtk-theme-collections/master/audacious-dark.jpg) <br />
-
-## Pavucontrol Fantome
-![alt text](https://raw.githubusercontent.com/addy-dclxvi/gtk-theme-collections/master/pavucontrol-dark.jpg) <br />
-
+## Whisker Menu
+![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/whisker-menu.png)
 
 ## Installation
 Simply just clone this repository to your ~/.themes folder.
 ```
-git clone https://github.com/addy-dclxvi/gtk-theme-collections ~/.themes
+git clone https://github.com/rharish101/Fantome-Blue ~/.themes
 ```
 Then apply your desired theme using LXAppearance or Xfce4 Settings Appearance.
 
 Failed to clone? Remove the *.git* folder inside the ~/.themes folder first
 
-## Notes
+## Notes (from original Fantome)
 
 - Panel frame is a bloat, so I remove it.
 
