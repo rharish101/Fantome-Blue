@@ -4273,6 +4273,12 @@ filechooser placessidebar.sidebar scrollbar,
 #whiskermenu-window>frame>stack>box>box>label {
   font-size: 20px;
 }
+#whiskermenu-window>frame>* {
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-top-color: rgba(0,0,0,0.4);
+  border-right-color: rgba(0,0,0,0.4);
+}
 #pulseaudio-button>image {
 	-gtk-icon-style: regular;
 }
