@@ -4279,9 +4279,6 @@ filechooser placessidebar.sidebar scrollbar,
   border-top-color: rgba(0,0,0,0.4);
   border-right-color: rgba(0,0,0,0.4);
 }
-#pulseaudio-button>image {
-	-gtk-icon-style: regular;
-}
 @define-color theme_fg_color #D3DAE3;
 @define-color theme_text_color #D3DAE3;
 @define-color theme_bg_color #383C4A;
