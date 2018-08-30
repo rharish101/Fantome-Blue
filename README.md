@@ -14,6 +14,9 @@ Metacity theme is Arc-Dark.
 ## Xfce Settings
 ![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/xfce-settings.png)
 
+## Theme Chooser
+![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/theme-chooser.png)
+
 ## Pavucontrol
 ![alt text](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/pavucontrol.png)
 
