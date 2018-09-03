@@ -1,7 +1,9 @@
 ## Introduction
 Just a messy edit of Fantome, by [addy-dclxvi](https://github.com/addy-dclxvi), which is a messy edit of the Arc GTK theme.
 I liked the simplicity of Fantome, but I wanted the colorscheme of Arc-Dark.
-Therefore, I created this variant. This theme also contains a few gtk3 changes made to Whisker Menu, as per my taste.
+Therefore, I created this variant.
+This theme also contains a few gtk3 changes made to Whisker Menu, as per my taste.
+The scrollbar for GTK+3 is also squarer than the original.
 
 ## Preview
 I use Compiz as my window manager.
