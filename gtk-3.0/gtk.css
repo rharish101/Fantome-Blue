@@ -1662,8 +1662,8 @@ notebook {
         min-width: 20px;
         min-height: 20px;
         outline-offset: -4px;
-        border: 1px solid transparent;
-        border-bottom: none;
+        border: 1px none transparent;
+        border-bottom: solid;
         border-radius: 1px 1px 0 0; }
         notebook > header.top > tabs > tab + tab {
           margin-left: -1px; }
@@ -1674,8 +1674,8 @@ notebook {
         min-width: 20px;
         min-height: 20px;
         outline-offset: -4px;
-        border: 1px solid transparent;
-        border-top: none;
+        border: 1px none transparent;
+        border-top: solid;
         border-radius: 0 0 1px 1px; }
         notebook > header.bottom > tabs > tab + tab {
           margin-left: -1px; }
@@ -1686,8 +1686,8 @@ notebook {
         min-width: 20px;
         min-height: 20px;
         outline-offset: -4px;
-        border: 1px solid transparent;
-        border-left: none;
+        border: 1px none transparent;
+        border-left: solid;
         border-radius: 0 1px 1px 0; }
         notebook > header.right > tabs > tab + tab {
           margin-top: -1px; }
@@ -1698,8 +1698,8 @@ notebook {
         min-width: 20px;
         min-height: 20px;
         outline-offset: -4px;
-        border: 1px solid transparent;
-        border-right: none;
+        border: 1px none transparent;
+        border-right: solid;
         border-radius: 1px 0 0 1px; }
         notebook > header.left > tabs > tab + tab {
           margin-top: -1px; }
@@ -1745,7 +1745,8 @@ notebook {
       notebook > header > tabs > tab:checked {
         color: #d8dee8;
         background-color: #2f343f;
-        border-color: #2f343f; }
+        border-width: 2px;
+        border-color: #3b84de; }
       notebook > header > tabs > tab button.flat, notebook > header > tabs > tab button.sidebar-button {
         min-height: 22px;
         min-width: 16px;
