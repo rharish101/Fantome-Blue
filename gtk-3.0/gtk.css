@@ -4287,13 +4287,13 @@ window.background.chromium {
 @define-color theme_text_color #D3DAE3;
 @define-color theme_bg_color #383C4A;
 @define-color theme_base_color #404552;
-@define-color theme_selected_bg_color #5294e2;
+@define-color theme_selected_bg_color #3b84de;
 @define-color theme_selected_fg_color #ffffff;
 @define-color fg_color #D3DAE3;
 @define-color text_color #D3DAE3;
 @define-color bg_color #383C4A;
 @define-color base_color #404552;
-@define-color selected_bg_color #5294e2;
+@define-color selected_bg_color #3b84de;
 @define-color selected_fg_color #ffffff;
 @define-color insensitive_bg_color #3c4150;
 @define-color insensitive_fg_color alpha(#d3dae3, 0.5);
@@ -4321,7 +4321,7 @@ window.background.chromium {
 @define-color wm_button_close_active_bg #be3841;
 @define-color wm_icon_close_bg #2f343f;
 @define-color wm_button_hover_bg #454C5C;
-@define-color wm_button_active_bg #5294e2;
+@define-color wm_button_active_bg #3b84de;
 @define-color wm_button_hover_border #262932;
 @define-color wm_icon_bg #90939B;
 @define-color wm_icon_unfocused_bg #666A74;
