@@ -4071,7 +4071,7 @@ filechooser.csd.background, filechooser placessidebar list,
 
 filechooser placessidebar.sidebar,
 .nautilus-window placessidebar.sidebar {
-  background-color: rgba(53, 57, 69, 0.95); }
+  background-color: rgba(47, 52, 63, 0.95); }
   filechooser placessidebar.sidebar row.sidebar-row,
   .nautilus-window placessidebar.sidebar row.sidebar-row {
     border: none;
@@ -4172,7 +4172,8 @@ filechooser.maximized placessidebar.sidebar,
 
 filechooser actionbar {
   color: #BAC3CF;
-  background-color: rgba(53, 57, 69, 0.95);
+  background-color: rgba(47, 52, 63, 0.95);
+  border-width: 0;
   border-color: rgba(20, 21, 26, 0.95); }
   filechooser actionbar label, filechooser actionbar combobox {
     color: #BAC3CF; }
