@@ -94,6 +94,7 @@ style "theme-main-menu-text" = "theme-panel-text" {
 }
 
 style "workspace-switcher" = "theme-panel" {
+  fg[SELECTED] = @insensitive_fg_color
   bg[SELECTED] = @selected_bg_color
 }
 
