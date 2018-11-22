@@ -30,12 +30,10 @@ widget_class "*ThunarWindow*.<GtkHPaned>"               style "thunar-handle"
 # Workaround for colored entries
 #
 style "entry_border" {
-
   xthickness = 7
   ythickness = 5
 
   engine "pixmap" {
-
     image {
       function = SHADOW
       state = NORMAL
@@ -77,9 +75,7 @@ style "entry_border" {
 }
 
 style "combobox_entry_border" = "combobox_entry" {
-
   engine "pixmap" {
-
     image {
       function = SHADOW
       detail = "entry"
@@ -137,7 +133,6 @@ style "combobox_entry_border" = "combobox_entry" {
   }
 }
 
-
 # Mousepad search entry
 widget_class "*MousepadSearchBar*.<GtkEntry>"         style "entry_border"
 
@@ -153,5 +148,28 @@ class "SexySpellEntry"                                style:highest "entry_borde
 # Geany search entries
 widget "*GeanyToolbar.*geany-search-entry-no-match*"  style "entry_border"
 widget "*GeanyToolbar.*GtkEntry*"                     style "entry_border"
-
 widget "GeanyDialogSearch.*GtkComboBoxEntry*.*geany-search-entry-no-match*"  style "combobox_entry_border"
+
+#
+# Xfce Session Manager Logout Prompt
+#
+
+style "xfsm-logout" {
+  GtkDialog::content-area-border = 8
+  GtkDialog::content-area-spacing = 8
+  GtkDialog::action-area-spacing = 4
+
+  bg[NORMAL]   = @bg_color
+  bg[SELECTED] = @bg_color # Border around the dialog
+  fg[NORMAL]   = @text_color
+}
+
+style "xfsm-logout-button" {
+  bg[NORMAL]   = @text_color
+  bg[SELECTED] = @text_color # Border around the dialog
+  fg[NORMAL]   = @text_color
+}
+
+# XFDesktop end-session-dialog
+widget_class "*XfsmLogoutDialog*"                         style "xfsm-logout"
+widget_class "*XfsmLogoutDialog*.<GtkButton>"             style "xfsm-logout-button"
