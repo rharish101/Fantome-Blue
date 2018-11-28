@@ -4265,31 +4265,6 @@ filechooser placessidebar.sidebar scrollbar,
   font-size: 22px;
   font-weight: 300;
 }
-#whiskermenu-window>frame>stack>box>stack>box>scrolledwindow>viewport* {
-  padding: 2px;
-}
-#whiskermenu-window>frame>stack>box>stack>box>stack>scrolledwindow* {
-  font-size: 21px;
-  padding: 2px;
-}
-#whiskermenu-window>frame>stack>box>box>label {
-  font-size: 20px;
-}
-#whiskermenu-window>frame>* {
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-top-color: rgba(0,0,0,0.4);
-  border-right-color: rgba(0,0,0,0.4);
-}
-window.background.chromium {
-  background-color: #404552;
-}
-.terminator-terminal-window>notebook>header>tabs>tab:checked {
-	border-width: 0;
-}
-.terminator-terminal-window paned>separator {
-	background-image: linear-gradient(#505666,#505666)
-}
 @define-color theme_fg_color #D3DAE3;
 @define-color theme_text_color #D3DAE3;
 @define-color theme_bg_color #383C4A;
