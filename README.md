@@ -2,27 +2,44 @@
 Just a messy edit of Fantome, by [addy-dclxvi](https://github.com/addy-dclxvi), which is a messy edit of the Arc GTK theme.
 I liked the simplicity of Fantome, but I wanted the colorscheme of Arc-Dark.
 Therefore, I created this variant.
-This theme also contains a few gtk3 changes made to Whisker Menu, as per my taste.
+
+Install this theme as follows:
+```
+mkdir -p ~/.themes
+cd ~/.themes
+git clone https://github.com/rharish101/Fantome-Blue
+```
+
+This theme contains a metacity theme (for window decorations) with the title hidden.
+It also contains a theme for plank, and a few gtk3 changes made to Whisker Menu, as per my taste.
 The scrollbar for GTK+3 is also squarer than the original.
+
+## Metacity Theme
+In order to use the metacity theme, you need to symlink this repository to either `$HOME/.local/share/themes` or `/usr/share/themes` (for a system-wide installation).
+This is because of this [bug](https://bugzilla.redhat.com/show_bug.cgi?id=952854).
+
+## Plank Theme
+To install the Plank theme, copy the `plank` folder as `Fantome-Blue` to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
+Now open the Plank preferences window by executing plank --preferences from a terminal and select Fantome-Blue as the theme.
 
 ## Preview
 I use Compiz as my window manager.
 The icons theme used is Arc-X-D, with Paper as a fallback.
 Metacity theme is Arc-Dark.
 
-## Thunar
+### Thunar
 ![thunar](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/thunar.png)
 
-## Xfce Settings
+### Xfce Settings
 ![xfce-settings](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/xfce-settings.png)
 
-## Theme Chooser
+### Theme Chooser
 ![theme-chooser](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/theme-chooser.png)
 
-## Pavucontrol
+### Pavucontrol
 ![pavucontrol](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/pavucontrol.png)
 
-## Whisker Menu
+### Whisker Menu
 ![whisker-menu](https://raw.githubusercontent.com/rharish101/Fantome-Blue/master/whisker-menu.png)
 
 ## Installation
@@ -58,8 +75,6 @@ I recommend You to remove it using gtk-nocsd (╯°□°）╯︵ ┻━┻
 - Just like any dark theme. Sometimes it breaks web browsing experience, and I don't know how to fix it.
 
 - I designed this theme for myself. So I use "It works for me" philosophy. Don't complain if it doesn't work for You :p
-
-- Folder icons are included as a bonus.
 
 ## License
 
