@@ -4265,6 +4265,14 @@ filechooser placessidebar.sidebar scrollbar,
   font-size: 22px;
   font-weight: 300;
 }
+#whiskermenu-window scrollbar.vertical {
+  padding: 0px;
+}
+#whiskermenu-window scrollbar.vertical slider {
+  min-width: 0px;
+  margin-left: 0px;
+  border-style: none;
+}
 @define-color theme_fg_color #D3DAE3;
 @define-color theme_text_color #D3DAE3;
 @define-color theme_bg_color #383C4A;
